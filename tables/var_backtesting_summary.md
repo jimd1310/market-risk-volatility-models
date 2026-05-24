@@ -1,0 +1,12 @@
+| Model        | VaR level   |   Breaches |   Breach rate |   Expected rate |   Kupiec p |   Independence p |   Conditional coverage p | Kupiec         | Independence   | Conditional coverage   |
+|:-------------|:------------|-----------:|--------------:|----------------:|-----------:|-----------------:|-------------------------:|:---------------|:---------------|:-----------------------|
+| 4-state HMM  | 95%         |         99 |      0.065737 |            0.05 |   0.007391 |         0.839578 |                 0.0271   | Reject         | Fail to reject | Reject                 |
+| 4-state HMM  | 99%         |         24 |      0.015936 |            0.01 |   0.033068 |         0.377788 |                 0.069943 | Reject         | Fail to reject | Fail to reject         |
+| Gaussian     | 95%         |         71 |      0.047145 |            0.05 |   0.60788  |         0.166966 |                 0.337354 | Fail to reject | Fail to reject | Fail to reject         |
+| Gaussian     | 99%         |         36 |      0.023904 |            0.01 |   4e-06    |         0.010233 |                 1e-06    | Reject         | Reject         | Reject                 |
+| Student-t    | 95%         |         96 |      0.063745 |            0.05 |   0.018676 |         0.022518 |                 0.004661 | Reject         | Reject         | Reject                 |
+| Student-t    | 99%         |         18 |      0.011952 |            0.01 |   0.460095 |         0.016779 |                 0.043608 | Fail to reject | Reject         | Reject                 |
+| GARCH(1,1)   | 95%         |         88 |      0.058433 |            0.05 |   0.143143 |         0.945452 |                 0.341549 | Fail to reject | Fail to reject | Fail to reject         |
+| GARCH(1,1)   | 99%         |         32 |      0.021248 |            0.01 |   0.000137 |         0.710713 |                 0.000647 | Reject         | Fail to reject | Reject                 |
+| t-GARCH(1,1) | 95%         |         92 |      0.061089 |            0.05 |   0.055987 |         0.867126 |                 0.158782 | Fail to reject | Fail to reject | Fail to reject         |
+| t-GARCH(1,1) | 99%         |         23 |      0.015272 |            0.01 |   0.056368 |         0.361725 |                 0.106829 | Fail to reject | Fail to reject | Fail to reject         |

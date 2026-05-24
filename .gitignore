@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Optional raw/local data
+data/
